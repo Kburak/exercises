@@ -1,8 +1,7 @@
-def is_same(num):
-    if numlist[0] == numlist[-1]:
-        return True
-    else:
-        return False
-numlist = [1,2,3,4,5,1]
-print("the first and the last number of a list is same")
-print("result is", is_same(numlist))
+def is_divisible(numlist):
+    for num in numlist:
+        if num %5 == 0:
+            print(num)
+numlist = [1,2,3,4,5,6,7,8,9,10]
+print("Finding divisible of 5 in a list")
+is_divisible(numlist)
