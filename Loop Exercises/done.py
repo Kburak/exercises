@@ -4,6 +4,6 @@ print("Done !")
 
 # Second way and better way
 for num in range(5):
-    print(num):
+    print(num)
 else:
     print("Done !")
