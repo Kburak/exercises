@@ -10,4 +10,4 @@ def reverse_word(sentence):
 
 user_string = input("Please enter a string and i will give it back to you backwards.")
 
-print(reverse_word(user_string))
+reverse_word(user_string)
