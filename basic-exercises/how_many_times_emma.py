@@ -7,3 +7,5 @@ my_string = "Emma is a good developer. Emma is also a writer"
 count = how_many_times(my_string)
 print("Emma appeared", count, "times")
 
+# split the words
+
