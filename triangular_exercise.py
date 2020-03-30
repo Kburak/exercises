@@ -10,5 +10,5 @@ def triangular(N):
         my_list.append(list2)
     print(*my_list, sep = "\n")
 
-
 triangular(10)
+
