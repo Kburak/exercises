@@ -1,21 +1,22 @@
-def fibonacci(number):
-    num = int(input("How many fibonacci numbers would you like to generate? "))
-    n = 1
-    if num == 0:
-        fib = []
-    elif num == 1:
-        fib = [1]
-    elif num == 2:
-        fib = [1, 1]
-    elif num > 2:
-        fib = [1, 1]
-        while n < (num - 1):
-            fib.append(fib[n] + fib[n - 1])
-            n += 1
+"""
+This function gives you the nth fibonacci
 
-    return fib
-
-print(fibonacci(num))
+"""
+def Fibonacci(n):
 
 
-# Better version ust sinir
+    if n<=0:
+        print("Incorrect input")
+    elif n > 300:
+        print("This program only goes up to 300")
+    # First Fibonacci number is 0
+    elif n==1:
+        return 0
+    # Second Fibonacci number is 1
+    elif n==2:
+        return 1
+    else:
+        return Fibonacci(n-1)+Fibonacci(n-2)
+
+
+print(Fibonacci(1))
